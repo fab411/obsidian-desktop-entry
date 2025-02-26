@@ -1,19 +1,91 @@
-README: Creating a .desktop File for Application Shortcuts
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-# 📌 Creating a `.desktop` File for Application Shortcuts  
 
-## 🚀 Introduction  
-This guide walks you through creating a `.desktop` file to add an application shortcut to your system's application menu. This is useful for launching programs that do not automatically create a menu entry.  
 
-Once added, the shortcut will be searchable using the **Super key**, and you can pin it to favorites for easy access.  
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Unlicense License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/fab411/Obsidian/blob/main/Icons/obsidian1.svg">
+    <img src="Icons/obsidian1.svg" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Creating a .desktop File for Application Shortcuts</h3>
+  <!--
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    &middot;
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+  -->
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+# README: Creating a .desktop File for Application Shortcuts
+
+## About The Project
+
+This guide helps you create a `.desktop` file to add an application shortcut to your Linux desktop environment (GNOME, KDE, XFCE, etc.). Once added, the shortcut will be searchable using the **Super key**, and you can pin it to favorites.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
-## 📂 What is a `.desktop` File?  
-A `.desktop` file is a configuration file used in Linux desktop environments (**GNOME, KDE, XFCE, etc.**) to create application shortcuts.  
-
-## 🛠 How to Create a `.desktop` File  
-
+## Getting Started
 ### 1️⃣ Step 1: Create the `.desktop` File  
 Create a `.desktop` file in one of the following locations:  
 - **User-specific:** `~/.local/share/applications/`  
@@ -70,22 +142,28 @@ The .desktop file should be stored in:
 ls ~/.local/share/applications/ #Obsidian.desktop
 ```
 
-
-### 6️⃣ Step 6: Launch the Application
-Now, you should be able to find Obsidian in your application menu. You can also search for it using the Super key or add it to favorites.
-
-
 ---
-
+## Usage
+After completing the above steps, you can:
+- [x] Launch Obsidian from your application menu.
+- [x] Pin it to your favorites for quick access.
 
 
 ## 🔗 Useful Links
-Read more at: [https://www.commandlinux.com/man-page/man1/](https://specifications.freedesktop.org/desktop-entry-spec/latest/index.html#introduction) 
-
-more information: https://www.baeldung.com/linux/desktop-entry-files
-desktop-file-install: https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html
-create own icon: https://obsidian.md/blog/new-obsidian-icon/
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+* [Read more at ](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
+* [more information](https://www.baeldung.com/linux/desktop-entry-files)
+* [desktop-file-install](https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html)
+* [create own icon](https://obsidian.md/blog/new-obsidian-icon/)
 
 
 Let me know if you need help with anything else!
+
+<!-- LICENSE -->
+<!-- ## License
+
+Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
