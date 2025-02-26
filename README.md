@@ -105,19 +105,19 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## Getting Started
-### 1️⃣ Step 1: Create the `.desktop` File  
-Create a `.desktop` file in one of the following locations:  
+### Step 1: Create the `.desktop` File  
+&nbsp; Create a `.desktop` file in one of the following locations:  
 - **User-specific:** `~/.local/share/applications/`  
 - **System-wide:** `/usr/share/applications/`
 
-Run the following command to create the file:  
+&nbsp; Run the following command to create the file:  
 ```bash
 sudo nano ~/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### 2️⃣ Step 2: Add the Following Content
-Copy, paste and save the following content into the .desktop file:
+### Step 2: Add the Following Content
+&nbsp; Copy, paste and save the following content into the .desktop file:
 ```bash
 [Desktop Entry]
 Version=1.0  # Version of the desktop entry specification
@@ -133,30 +133,30 @@ X-Desktop-File-Install-Version=0.26
 ```
 
 
-### 3️⃣ Step 3: Validate and Make It Executable
-Run the following command to validate the .desktop file:
+### Step 3: Validate and Make It Executable
+&nbsp; Run the following command to validate the .desktop file:
 ```bash
 desktop-file-validate ~/.local/share/obsidian/Obsidian.desktop
 ```
-Make it executable:
+&nbsp; Make it executable:
 ```bash
 chmod +x ~/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### 4️⃣ Step 4: Install the .desktop File
-To install the file, run:
+### Step 4: Install the .desktop File
+&nbsp; To install the file, run:
 ```bash 
 desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### 5️⃣ Step 5: Update the Application Database
-Update the application database so the new shortcut is recognized:
+### Step 5: Update the Application Database
+&nbsp; Update the application database so the new shortcut is recognized:
 ```bash 
 update-desktop-database ~/.local/share/applications
 ```
-The .desktop file should be stored in:
+&nbsp; The .desktop file should be stored in:
 ```bash
 ls ~/.local/share/applications/ #Obsidian.desktop
 ```
@@ -166,8 +166,8 @@ ls ~/.local/share/applications/ #Obsidian.desktop
 
 ## Usage
 After completing the above steps, you can:
-- [x] Launch Obsidian from your application menu.
-- [x] Pin it to your favorites for quick access.
+ - [x] Launch Obsidian from your application menu.
+ - [x] Pin it to your favorites for quick access.
 
 Let me know if you need help with anything else!
 
@@ -179,7 +179,7 @@ Let me know if you need help with anything else!
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 * [Here you can find all Desktop Entry Specifications](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
 * [plus further explanations](https://www.baeldung.com/linux/desktop-entry-files)
-* [and the arguments of the *desktop-file-install* terminal command](https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html)
+* [and the arguments of the `desktop-file-install` terminal command](https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html)
 * [an Icon randomizer also exists](https://obsidian.md/blog/new-obsidian-icon/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -241,7 +241,7 @@ Fabian Lang - FabianLang@posteo.net <!--[@your_twitter](https://twitter.com/your
 Project Link: [https://github.com/fab411/Obsidian.desktop](https://github.com/fab411/Obsidian.desktop)
 
 
-https://github.com/fab411/Obsidian.desktop/blob/main/README.md
+<!--https://github.com/fab411/Obsidian.desktop/blob/main/README.md-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
