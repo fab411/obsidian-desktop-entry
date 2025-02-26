@@ -1,8 +1,21 @@
 # Changelog
 
-## v1.0.0
-### Added or Changed
+## v1.1.1
 
+### Added or Changed
+- more bug fixes
+
+
+## v1.1.0
+
+### Added or Changed
+- fix it all
+
+
+## v1.0.0
+
+### Added or Changed
+- Added this changelog :)
 
 <!--
 <?xml version="1.0" encoding="utf-8"?>
