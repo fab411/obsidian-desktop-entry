@@ -82,7 +82,7 @@
 This guide helps you create a `.desktop` file to add an application shortcut to your Linux desktop environment (GNOME, KDE, XFCE, etc.). Once added, the shortcut will be searchable using the **Super key**, and you can pin it to favorites.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
----
+
 
 <!--
 ### Built With
@@ -163,11 +163,13 @@ ls ~/.local/share/applications/ #Obsidian.desktop
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
+
 ## Usage
 After completing the above steps, you can:
 - [x] Launch Obsidian from your application menu.
 - [x] Pin it to your favorites for quick access.
+
+Let me know if you need help with anything else!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,14 +177,12 @@ After completing the above steps, you can:
 ## 🔗 Useful Links
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-* [Read more at ](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
-* [more information](https://www.baeldung.com/linux/desktop-entry-files)
-* [desktop-file-install](https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html)
-* [create own icon](https://obsidian.md/blog/new-obsidian-icon/)
+* [Here you can find all Desktop Entry Specifications](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
+* [plus further explanations](https://www.baeldung.com/linux/desktop-entry-files)
+* [and the arguments of the *desktop-file-install* terminal command](https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html)
+* [an Icon randomizer also exists](https://obsidian.md/blog/new-obsidian-icon/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-Let me know if you need help with anything else!
 
 <!--
 <!-- ROADMAP 
@@ -218,8 +218,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top :
 
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+<a href="https://github.com/fab411/Obsidian.desktop/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fab411/Obsidian.desktop" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -236,34 +236,54 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-F Lang - FabianLang@posteo.net <!--[@your_twitter](https://twitter.com/your_username)-->
+Fabian Lang - FabianLang@posteo.net <!--[@your_twitter](https://twitter.com/your_username)-->
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/fab411/Obsidian.desktop](https://github.com/fab411/Obsidian.desktop)
+
+
+https://github.com/fab411/Obsidian.desktop/blob/main/README.md
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Img Shields](https://shields.io)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<!--* * [Font Awesome](https://fontawesome.com)
+  * * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/-->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[repo]: https://github.com/fab411/Obsidian.desktop
+[link]: fab411/Obsidian.desktop
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-url]: https://github.com/fab411/Obsidian.desktop/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fab411/Obsidian.desktop.svg?style=for-the-badge
+[forks-url]: https://github.com/fab411/Obsidian.desktop/network/members
+[stars-shield]: https://img.shields.io/github/stars/fab411/Obsidian.desktop.svg?style=for-the-badge
+[stars-url]: https://github.com/fab411/Obsidian.desktop/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fab411/Obsidian.desktop.svg?style=for-the-badge
+[issues-url]: https://github.com/fab411/Obsidian.desktop/issues
+[license-shield]: https://img.shields.io/github/license/fab411/Obsidian.desktop.svg?style=for-the-badge
+[license-url]: https://github.com/fab411/Obsidian.desktop/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+
+<!--
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -306,3 +326,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+-->
