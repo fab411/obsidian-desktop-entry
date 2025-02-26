@@ -54,19 +54,19 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
+      <!--<ul>
         <li><a href="#built-with">Built With</a></li>
-      </ul>
+      </ul>-->
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
+      <!--<ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-      </ul>
+      </ul>-->
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#links">Useful Links</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -75,7 +75,7 @@
 </details>
 
 
-# README: Creating a .desktop File for Application Shortcuts
+# README: Creating a Obsidian.desktop File for Application Shortcuts
 
 ## About The Project
 
@@ -174,7 +174,7 @@ Let me know if you need help with anything else!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LINKS -->
-## 🔗 Useful Links
+## Links
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 * [Here you can find all Desktop Entry Specifications](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
