@@ -120,15 +120,24 @@ sudo nano ~/.local/share/obsidian/Obsidian.desktop
 &nbsp; Copy, paste and save the following content into the .desktop file:
 ```bash
 [Desktop Entry]
-Version=1.0  # Version of the desktop entry specification
-Name=Obsidian  # Name of the application
-Comment=Open a Vault  # Tooltip description
-Path=/home/fab/Applications/Obsidian/  # Path to the application folder
-Exec=/home/fab/Applications/Obsidian/Obsidian-1.8.7.AppImage  # Executable file
-Icon=/home/fab/Applications/Obsidian/Icon/obsidian1.svg  # Icon file path
-Terminal=false  # Does not require a terminal
-Categories=Utility;  # Application category
-Type=Application  # Specifies the file type
+# Version of the desktop entry specification
+Version=1.0 
+# Name of the application
+Name=Obsidian 
+# Tooltip description
+Comment=Open a Vault
+# The path to the folder in which the executable is run
+Path=/home/fab/.local/share/obsidian/
+# The executable of the application, possibly with arguments.
+Exec=/home/fab/.local/share/obsidian/Obsidian-1.8.7.AppImage
+# The name of the icon that will be used to display this entry
+Icon=/home/fab/.local/share/obsidian/images/obsidian_core.svg
+# Describes whether this application needs to be run in a terminal or not
+Terminal=false
+# Describes the categories in which this entry should be shown
+Categories=Utility;
+# The type as listed above
+Type=Application
 X-Desktop-File-Install-Version=0.26
 ```
 
