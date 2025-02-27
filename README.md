@@ -117,7 +117,7 @@ sudo nano ~/.local/share/obsidian/Obsidian.desktop
 
 
 ### Step 2: Add the Following Content
-&nbsp; Copy, paste and save the following content into the .desktop file:
+&nbsp; Copy, paste and save the following content into the `Obsidian.desktop` file:
 ```bash
 [Desktop Entry]
 # Version of the desktop entry specification
@@ -143,7 +143,7 @@ X-Desktop-File-Install-Version=0.26
 
 
 ### Step 3: Validate and Make It Executable
-&nbsp; Run the following command to validate the .desktop file:
+&nbsp; Run the following command to validate the `.desktop` file:
 ```bash
 sudo desktop-file-validate ~/.local/share/obsidian/Obsidian.desktop
 ```
@@ -165,9 +165,9 @@ sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/sha
 ```bash 
 sudo update-desktop-database ~/.local/share/applications/
 ```
-&nbsp; The .desktop file should be stored in:
+&nbsp; The `Obsidian.desktop` file should be stored in:
 ```bash
-ls ~/.local/share/applications/ #Obsidian.desktop
+ls ~/.local/share/applications/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
