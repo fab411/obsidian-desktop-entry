@@ -9,7 +9,9 @@
 ## v1.1.0
 
 ### Added or Changed
-- fix it all
+- Updated Obsidian.desktop file. Change Code lines for a local architecture
+- execute desktop-file-install and update-desktop-database command with sudo for changes in local User architecture
+- Recognizable image file names
 
 
 ## v1.0.0
