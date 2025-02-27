@@ -100,9 +100,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
+## Obsidian-xxx.AppImage Placeholder  
 
+This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
 
+### Download Obsidian  
+To get the latest version, download `Obsidian-*.AppImage` from the official website: [Obsidian Download Page](https://obsidian.md)  
 
+After downloading, place the file in:  
+```bash
+~/.local/share/obsidian/
+```
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Step 1: Create the `.desktop` File  
