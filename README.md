@@ -136,7 +136,7 @@ X-Desktop-File-Install-Version=0.26
 ### Step 3: Validate and Make It Executable
 &nbsp; Run the following command to validate the .desktop file:
 ```bash
-desktop-file-validate ~/.local/share/obsidian/Obsidian.desktop
+sudo desktop-file-validate ~/.local/share/obsidian/Obsidian.desktop
 ```
 &nbsp; Make it executable:
 ```bash
@@ -147,14 +147,14 @@ chmod +x ~/.local/share/obsidian/Obsidian.desktop
 ### Step 4: Install the .desktop File
 &nbsp; To install the file, run:
 ```bash 
-desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/Obsidian.desktop
+sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/Obsidian.desktop
 ```
 
 
 ### Step 5: Update the Application Database
 &nbsp; Update the application database so the new shortcut is recognized:
 ```bash 
-update-desktop-database ~/.local/share/applications
+sudo update-desktop-database ~/.local/share/applications/
 ```
 &nbsp; The .desktop file should be stored in:
 ```bash
