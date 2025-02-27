@@ -201,23 +201,29 @@ Let me know if you need help with anything else!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--
-<!-- ROADMAP 
+<!--ROADMAP--> 
 ## Roadmap
 
 - [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+- [x] Add AppImage Stuff
+- [ ] Add Acknowledgments
+    - [ ] Move Link Section to acknowledgement
+    - [ ] Obsidian Forum link
+- [ ] Repository Structure & Organization
+    - [ ] Just download "obsidian" repo an copy into  ~/.local/share/
+    - [ ] Just download "obsidian.desktop" repo, with an obsidian folder into it.
+    - [ ] Modify paths after decision
+- [ ] Modify file paths to be more generic and avoid hardcoded /home/fab/ paths
+    - [ ] .desktop files and compatibility
+- [ ] Update Table of Contents
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+    - [ ] German
+    - [ ] Arabic
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
