@@ -29,8 +29,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/fab411/Obsidian/blob/main/Icons/obsidian1.svg">
-    <img src="Icons/obsidian1.svg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/fab411/Obsidian.desktop/blob/main/images/obsidian_core.svg">
+    <img src="images/obsidian_core.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Creating a .desktop File for Application Shortcuts</h3>
@@ -75,7 +75,7 @@
 </details>
 
 
-# README: Creating a Obsidian.desktop File for Application Shortcuts
+# Creating a Obsidian.desktop File for Application Shortcuts
 
 ## About The Project
 
