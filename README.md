@@ -220,6 +220,7 @@ Let me know if you need help with anything else!
 - [ ] Multi-language Support
     - [ ] German
     - [ ] Arabic
+- [ ] Docker
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
