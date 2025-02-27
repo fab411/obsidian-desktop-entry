@@ -100,7 +100,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
-## Obsidian-xxx.AppImage Placeholder  
+## Obsidian-*.AppImage Placeholder  
 
 This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
 
