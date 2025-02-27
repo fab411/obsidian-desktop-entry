@@ -1,4 +1,4 @@
-## This file is a placeholder.  
+## This file is a placeholder
 The current version used is `Obsidian-1.8.7.AppImage`.
 Please download `Obsidian-1.8.7.AppImage` from https://obsidian.md and place it in this folder.
 If you use a newer version, please update the code accordingly.
