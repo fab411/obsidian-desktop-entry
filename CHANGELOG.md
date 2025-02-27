@@ -3,7 +3,8 @@
 ## v1.1.1
 
 ### Added or Changed
-- more bug fixes
+- insert Informations about .AppImage
+- add .gitignore to Ignore the large .AppImage
 
 
 ## v1.1.0
