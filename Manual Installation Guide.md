@@ -13,7 +13,8 @@ If you prefer to set up Obsidian manually without cloning this repository, follo
 
 &nbsp; Run the following command to create the file:  
 ```bash
-sudo nano ~/.local/share/obsidian/Obsidian.desktop
+mkdir -p ~/.local/share/obsidian/
+nano ~/.local/share/obsidian/Obsidian.desktop
 ```
 
 
