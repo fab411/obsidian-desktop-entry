@@ -29,8 +29,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/fab411/Obsidian.desktop/blob/main/images/obsidian_core.svg">
-    <img src="images/obsidian_core.svg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/fab411/Obsidian.desktop/blob/main/obsidian/images/obsidian_core.svg">
+    <img src="obsidian/images/obsidian_core.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Creating a .desktop File for Application Shortcuts</h3>
@@ -103,14 +103,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Obsidian-*.AppImage Placeholder  
 
 This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
+To get the correct version, follow the instructions in `obsidian/images/Obsidian-1.87.AppImage.placeholder`. 
 
-### Download Obsidian  
-To get the latest version, download `Obsidian-*.AppImage` from the official website: [Obsidian Download Page](https://obsidian.md)  
-
-After downloading, place the file in:  
+After downloading, place the files in:  
 ```bash
 ~/.local/share/obsidian/
 ```
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Step 1: Create the `.desktop` File  
