@@ -79,7 +79,7 @@
 
 ## About The Project
 
-This guide helps you create a `.desktop` file to add an application shortcut to your Linux desktop environment (GNOME, KDE, XFCE, etc.). Once added, the shortcut will be searchable using the **Super key**, and you can pin it to favorites.
+This guide helps you create a User-specific `.desktop` file in to add an application shortcut to your Linux desktop environment (GNOME, KDE, XFCE, etc.). Once added, the shortcut will be searchable using the **Super key**, and you can pin it to favorites.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,20 +103,25 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Obsidian-*.AppImage Placeholder  
 
 This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
-To get the correct version, follow the instructions in `obsidian/images/Obsidian-1.87.AppImage.placeholder`. 
-
-After downloading, place the files in:  
+To get the correct version, follow the instructions in [`obsidian/images/Obsidian-1.8.7.AppImage.placeholder`](obsidian/images/Obsidian-1.8.7.AppImage.placeholder).
+    
+After downloading, place the `Obsidian-1.8.7.AppImage` in:  
 ```bash
 ~/.local/share/obsidian/
 ```
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Step 1: Create the `.desktop` File  
 &nbsp; Create a `.desktop` file in one of the following locations:  
-- **User-specific:** `~/.local/share/applications/`  
-- **System-wide:** `/usr/share/applications/`
+- **User-specific:**
+```bash
+- `~/.local/share/applications/`  
+```
+- **System-wide:**
+```bash
+`/usr/share/applications/`
+```
 
 &nbsp; Run the following command to create the file:  
 ```bash
@@ -190,25 +195,14 @@ Let me know if you need help with anything else!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LINKS -->
-## Links
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-* [Here you can find all Desktop Entry Specifications](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
-* [plus further explanations](https://www.baeldung.com/linux/desktop-entry-files)
-* [and the arguments of the `desktop-file-install` terminal command](https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html)
-* [an Icon randomizer also exists](https://obsidian.md/blog/new-obsidian-icon/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!--ROADMAP--> 
 ## Roadmap
 
 - [x] Add Changelog
 - [x] Add AppImage Stuff
-- [ ] Add Acknowledgments
-    - [ ] Move Link Section to acknowledgement
-    - [ ] Obsidian Forum link
+- [x] Add Acknowledgments
 - [ ] Repository Structure & Organization
     - [ ] Just download "obsidian" repo an copy into  ~/.local/share/
     - [ ] Just download "obsidian.desktop" repo, with an obsidian folder into it.
@@ -276,15 +270,26 @@ Project Link: [https://github.com/fab411/Obsidian.desktop](https://github.com/fa
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
+* [Obsidian Forum](https://forum.obsidian.md/) 
+* [Icon randomizer](https://obsidian.md/blog/new-obsidian-icon/)
+* [Desktop Entry Specifications](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
+* [Desktop Entry explanations](https://www.baeldung.com/linux/desktop-entry-files)
+* [`desktop-file-install` Arguments](https://www.commandlinux.com/man-page/man1/desktop-file-install.1.html)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
 * [Img Shields](https://shields.io)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!--* * [Font Awesome](https://fontawesome.com)
   * * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/-->
+* [Malven's Grid Cheatsheet](https://grid.malven.co/
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
