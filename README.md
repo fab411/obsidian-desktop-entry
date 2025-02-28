@@ -75,7 +75,7 @@
 </details>
 
 
-# Creating a Obsidian.desktop File for Application Shortcuts
+# Obsidian.desktop File for Application Shortcut
 
 ## About The Project
 
@@ -101,83 +101,25 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
 
-1️⃣ Clone the Repository
 
-First, download the repository to your local machine:
+### Step 1: Clone the Repository
+&nbsp; First, download the repository to your local machine:
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/fab411/Obsidian.desktop
+cd Obsidian.desktop
 ```
 
-2️⃣ Download Obsidian .AppImage 
-
-This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
+### Step 2: Download Obsidian .AppImage 
+&nbsp; This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
 To get the correct version, follow the instructions in [`obsidian/images/Obsidian-1.8.7.AppImage.placeholder`](obsidian/images/Obsidian-1.8.7.AppImage.placeholder).
     
 
-3️⃣ Place the File in the Correct Directory
-
-After downloading Obsidian-1.8.7.AppImage, move it to the required location:
+<!--3️-->
+### Step 3: Place the File in the Correct Directory 
+&nbsp; After downloading `Obsidian-1.8.7.AppImage`, move it to the required location:
 ```bash
 mv Obsidian-1.8.7.AppImage ~/.local/share/obsidian/
 ```
-
-
-# Manual Installation Guide
-
-If you prefer to set up Obsidian manually without cloning this repository, follow these steps:
-
-<!-- GETTING STARTED -->
-## Getting Started
-### Step 1: Create the `.desktop` File  
-&nbsp; Create a `.desktop` file in one of the following locations:  
-- **User-specific:** `~/.local/share/applications/`  
-
-- **System-wide:** `/usr/share/applications/`
-
-
-&nbsp; Run the following command to create the file:  
-```bash
-sudo nano ~/.local/share/obsidian/Obsidian.desktop
-```
-
-
-### Step 2: Add the Following Content
-&nbsp; Copy, paste and save the following content into the `Obsidian.desktop` file:
-```bash
-[Desktop Entry]
-# Version of the desktop entry specification
-Version=1.0 
-# Name of the application
-Name=Obsidian 
-# Tooltip description
-Comment=Open a Vault
-# The path to the folder in which the executable is run
-Path=/home/fab/.local/share/obsidian/
-# The executable of the application, possibly with arguments.
-Exec=/home/fab/.local/share/obsidian/Obsidian-1.8.7.AppImage
-# The name of the icon that will be used to display this entry
-Icon=/home/fab/.local/share/obsidian/images/obsidian_core.svg
-# Describes whether this application needs to be run in a terminal or not
-Terminal=false
-# Describes the categories in which this entry should be shown
-Categories=Utility;
-# The type as listed above
-Type=Application
-X-Desktop-File-Install-Version=0.26
-```
-
-
-### Step 3: Validate and Make It Executable
-&nbsp; Run the following command to validate the `.desktop` file:
-```bash
-sudo desktop-file-validate ~/.local/share/obsidian/Obsidian.desktop
-```
-&nbsp; Make it executable:
-```bash
-chmod +x ~/.local/share/obsidian/Obsidian.desktop
-```
-
 
 ### Step 4: Install the .desktop File
 &nbsp; To install the file, run:
@@ -211,33 +153,12 @@ Let me know if you need help with anything else!
 
 <!-- Troubleshooting -->
 ## Troubleshooting
-Make sure the file is executable:
+Make sure the `.AppImage` file is executable:
 ```bash
 chmod +x ~/.local/share/obsidian/Obsidian-1.8.7.AppImage
 ```
-
-<!--ROADMAP--> 
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add AppImage Stuff
-- [x] Add Acknowledgments
-- [ ] Repository Structure & Organization
-    - [ ] Just download "obsidian" repo an copy into  ~/.local/share/
-    - [ ] Just download "obsidian.desktop" repo, with an obsidian folder into it.
-    - [ ] Modify paths after decision
-- [ ] Modify file paths to be more generic and avoid hardcoded /home/fab/ paths
-    - [ ] .desktop files and compatibility
-- [ ] Update Table of Contents
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] German
-    - [ ] Arabic
-- [ ] Docker
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -299,18 +220,35 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Img Shields](https://shields.io)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--ROADMAP--> 
+## Roadmap
 
+- [x] Add Changelog
+- [x] Add AppImage Stuff
+- [x] Add Acknowledgments
+- [x] Repository Structure
+- [ ] Modify file paths to be more generic and avoid hardcoded /home/fab/ paths
+    - [ ] .desktop files and compatibility
+- [ ] Update Table of Contents
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] German
+    - [ ] Arabic
+- [ ] Docker
 
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!--* * [Font Awesome](https://fontawesome.com)
   * * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)-->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
