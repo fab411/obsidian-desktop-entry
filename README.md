@@ -110,7 +110,7 @@ cd Obsidian.desktop
 ```
 
 ### Step 2: Download Obsidian .AppImage 
-&nbsp; This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
+This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
 To get the correct version, follow the instructions in [`obsidian/images/Obsidian-1.8.7.AppImage.placeholder`](obsidian/images/Obsidian-1.8.7.AppImage.placeholder).
     
 
