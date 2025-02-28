@@ -100,28 +100,41 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
-## Obsidian-*.AppImage Placeholder  
+
+1️⃣ Clone the Repository
+
+First, download the repository to your local machine:
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+```
+
+2️⃣ Download Obsidian .AppImage 
 
 This repository does **not** include the Obsidian `.AppImage` file to keep the project lightweight.  
 To get the correct version, follow the instructions in [`obsidian/images/Obsidian-1.8.7.AppImage.placeholder`](obsidian/images/Obsidian-1.8.7.AppImage.placeholder).
     
-After downloading, place the `Obsidian-1.8.7.AppImage` in:  
+
+3️⃣ Place the File in the Correct Directory
+
+After downloading Obsidian-1.8.7.AppImage, move it to the required location:
 ```bash
-~/.local/share/obsidian/
+mv Obsidian-1.8.7.AppImage ~/.local/share/obsidian/
 ```
+
+
+# Manual Installation Guide
+
+If you prefer to set up Obsidian manually without cloning this repository, follow these steps:
 
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Step 1: Create the `.desktop` File  
 &nbsp; Create a `.desktop` file in one of the following locations:  
-- **User-specific:**
-```bash
-- `~/.local/share/applications/`  
-```
-- **System-wide:**
-```bash
-`/usr/share/applications/`
-```
+- **User-specific:** `~/.local/share/applications/`  
+
+- **System-wide:** `/usr/share/applications/`
+
 
 &nbsp; Run the following command to create the file:  
 ```bash
@@ -196,6 +209,12 @@ Let me know if you need help with anything else!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- Troubleshooting -->
+## Troubleshooting
+Make sure the file is executable:
+```bash
+chmod +x ~/.local/share/obsidian/Obsidian-1.8.7.AppImage
+```
 
 <!--ROADMAP--> 
 ## Roadmap
