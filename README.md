@@ -101,6 +101,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
 
+### Step 0: Installation Options: Clone the Repository or Set Up Manually?
+
+You have two options to install and configure Obsidian on your system. Choose the method that best suits your needs:
 
 ### Step 1: Clone the Repository
 &nbsp; First, download the repository to your local machine:
@@ -210,7 +213,8 @@ Project Link: [https://github.com/fab411/Obsidian.desktop](https://github.com/fa
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Obsidian Forum](https://forum.obsidian.md/) 
+* [Obsidian Forum](https://forum.obsidian.md/)
+* [Obsidian Hub - Plugins](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Diagrams) 
 * [Icon randomizer](https://obsidian.md/blog/new-obsidian-icon/)
 * [Desktop Entry Specifications](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
 * [Desktop Entry explanations](https://www.baeldung.com/linux/desktop-entry-files)
