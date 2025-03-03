@@ -107,14 +107,13 @@ You have two options to install and configure Obsidian on your system. Choose th
 
  - Manual Installation Guide: If you prefer to **set up everything yourself** without cloning the repository, follow the instructions provided in the separate section: [Manual Installation Guide](https://github.com/fab411/Obsidian.desktop/blob/main/Manual%20Installation%20Guide.md)
 
-
  - Clone This Repository: If you want a **predefined folder structure** with ready-to-use configurations, follow the steps below to clone this repository.
 
 ### Step 1: Clone the Repository
 &nbsp; First, download the repository to your local machine:
 ```bash
 git clone https://github.com/fab411/Obsidian.desktop
-sudo mv Obsidian.desktop ~/.local/share
+mv Obsidian.desktop/obsidian ~/.local/share/
 ```
 
 ### Step 2: Download Obsidian .AppImage 
@@ -130,9 +129,9 @@ mv Obsidian-1.8.7.AppImage ~/.local/share/obsidian/
 ```
 
 ### Step 4: Install the .desktop File
-&nbsp; To install the file, run:
+&nbsp; To install the file in ~/.local/share/applications/, run:
 ```bash 
-sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/Obsidian.desktop
+sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/obsidian/Obsidian.desktop
 ```
 
 
