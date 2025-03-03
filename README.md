@@ -214,7 +214,7 @@ Project Link: [https://github.com/fab411/Obsidian.desktop](https://github.com/fa
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Obsidian Forum](https://forum.obsidian.md/)
-* [Obsidian Hub - Plugins](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Diagrams) 
+* [Obsidian Hub - Plugins](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Plugins+for+Diagrams)
 * [Icon randomizer](https://obsidian.md/blog/new-obsidian-icon/)
 * [Desktop Entry Specifications](https://specifications.freedesktop.org/desktop-entry-spec/latest/)
 * [Desktop Entry explanations](https://www.baeldung.com/linux/desktop-entry-files)
