@@ -105,11 +105,16 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 You have two options to install and configure Obsidian on your system. Choose the method that best suits your needs:
 
+ - Manual Installation Guide: If you prefer to **set up everything yourself** without cloning the repository, follow the instructions provided in the separate section: [Manual Installation Guide](https://github.com/fab411/Obsidian.desktop/blob/main/Manual%20Installation%20Guide.md)
+
+
+ - Clone This Repository: If you want a **predefined folder structure** with ready-to-use configurations, follow the steps below to clone this repository.
+
 ### Step 1: Clone the Repository
 &nbsp; First, download the repository to your local machine:
 ```bash
 git clone https://github.com/fab411/Obsidian.desktop
-cd Obsidian.desktop
+sudo mv Obsidian.desktop/obsidian ~/.local/share/obsidian/
 ```
 
 ### Step 2: Download Obsidian .AppImage 
