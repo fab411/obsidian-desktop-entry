@@ -114,7 +114,7 @@ You have two options to install and configure Obsidian on your system. Choose th
 &nbsp; First, download the repository to your local machine:
 ```bash
 git clone https://github.com/fab411/Obsidian.desktop
-sudo mv Obsidian.desktop/obsidian ~/.local/share/obsidian/
+sudo mv Obsidian.desktop ~/.local/share
 ```
 
 ### Step 2: Download Obsidian .AppImage 
