@@ -6,11 +6,11 @@ Name=Obsidian
 # A comment which can/will be used as a tooltip
 Comment=Open a Vault
 # The path to the folder in which the executable is run
-Path=/home/fab/.local/share/obsidian/
+Path=/home/fab/.local/share/obsidian/obsidian/
 # The executable of the application, possibly with arguments.
-Exec=/home/fab/.local/share/obsidian/Obsidian-1.8.7.AppImage
+Exec=/home/fab/.local/share/obsidian/obsidian/Obsidian-1.8.7.AppImage
 # The name of the icon that will be used to display this entry
-Icon=/home/fab/.local/share/obsidian/images/obsidian_core.svg
+Icon=/home/fab/.local/share/obsidian/obsidian/images/obsidian_core.svg
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
 # Describes the categories in which this entry should be shown
