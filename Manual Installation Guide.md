@@ -1,6 +1,6 @@
 # Manual Installation Guide
 
-If you prefer to set up Obsidian manually without cloning this repository, follow these steps:
+If you prefer to set up Obsidian manually without cloning this repository, follow these steps.
 
 <!-- GETTING STARTED -->
 ## Getting Started
