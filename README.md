@@ -1,3 +1,10 @@
+<!-- Replace
+folder repository name: obsidian-desktop-entry
+
+-->
+
+
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
@@ -29,7 +36,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/fab411/Obsidian.desktop/blob/main/obsidian/images/obsidian_core.svg">
+  <a href="https://github.com/fab411/obsidian-desktop-entry/blob/main/obsidian/images/obsidian_core.svg">
     <img src="obsidian/images/obsidian_core.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -37,14 +44,14 @@
   <p align="center">
     An awesome README to run Obsidian via the graphical interface and make the work process smoother
     <br />
-    <a href="https://github.com/fab411/Obsidian.desktop"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/fab411/obsidian-desktop-entry"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/fab411/Obsidian.desktop">View Demo</a>
+    <a href="https://github.com/fab411/obsidian-desktop-entry">View Demo</a>
     &middot;
-    <a href="https://github.com/fab411/Obsidian.desktop/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/fab411/obsidian-desktop-entry/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/fab411/Obsidian.desktop/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/fab411/obsidian-desktop-entry/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -105,15 +112,15 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 You have two options to install and configure Obsidian on your system. Choose the method that best suits your needs:
 
- - Manual Installation Guide: If you prefer to **set up everything yourself** without cloning the repository, follow the instructions provided in the separate section: [Manual Installation Guide](https://github.com/fab411/Obsidian.desktop/blob/main/Manual%20Installation%20Guide.md)
+ - Manual Installation Guide: If you prefer to **set up everything yourself** without cloning the repository, follow the instructions provided in the separate section: [Manual Installation Guide](https://github.com/fab411/obsidian-desktop-entry/blob/main/Manual%20Installation%20Guide.md)
 
  - Clone This Repository: If you want a **predefined folder structure** with ready-to-use configurations, follow the steps below to clone this repository.
 
 ### Step 1: Clone the Repository
 &nbsp; First, download the repository to your local machine:
 ```bash
-git clone https://github.com/fab411/Obsidian.desktop
-mv Obsidian.desktop/obsidian ~/.local/share/
+git clone https://github.com/fab411/obsidian-desktop-entry
+mv obsidian-desktop-entry/obsidian ~/.local/share/
 ```
 
 ### Step 2: Download Obsidian .AppImage 
@@ -131,7 +138,7 @@ mv Obsidian-1.8.7.AppImage ~/.local/share/obsidian/
 ### Step 4: Install the .desktop File
 &nbsp; To install the file in ~/.local/share/applications/, run:
 ```bash 
-sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/obsidian/Obsidian.desktop
+sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/obsidian/obsidian-desktop-entry
 ```
 
 
@@ -183,8 +190,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top :
 
-<a href="https://github.com/fab411/Obsidian.desktop/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=fab411/Obsidian.desktop" alt="contrib.rocks image" />
+<a href="https://github.com/fab411/obsidian-desktop-entry/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fab411/obsidian-desktop-entry" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,10 +210,10 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
 Fabian Lang - FabianLang@posteo.net <!--[@your_twitter](https://twitter.com/your_username)-->
 
-Project Link: [https://github.com/fab411/Obsidian.desktop](https://github.com/fab411/Obsidian.desktop)
+Project Link: [https://github.com/fab411/obsidian-desktop-entry](https://github.com/fab411/obsidian-desktop-entry)
 
 
-<!--https://github.com/fab411/Obsidian.desktop/blob/main/README.md-->
+<!--https://github.com/fab411/obsidian-desktop-entry/blob/main/README.md-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -261,19 +268,19 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[repo]: https://github.com/fab411/Obsidian.desktop
-[link]: fab411/Obsidian.desktop
+[repo]: https://github.com/fab411/obsidian-desktop-entry
+[link]: fab411/obsidian-desktop-entry
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/fab411/Obsidian.desktop/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/fab411/Obsidian.desktop.svg?style=for-the-badge
-[forks-url]: https://github.com/fab411/Obsidian.desktop/network/members
-[stars-shield]: https://img.shields.io/github/stars/fab411/Obsidian.desktop.svg?style=for-the-badge
-[stars-url]: https://github.com/fab411/Obsidian.desktop/stargazers
-[issues-shield]: https://img.shields.io/github/issues/fab411/Obsidian.desktop.svg?style=for-the-badge
-[issues-url]: https://github.com/fab411/Obsidian.desktop/issues
-[license-shield]: https://img.shields.io/github/license/fab411/Obsidian.desktop.svg?style=for-the-badge
-[license-url]: https://github.com/fab411/Obsidian.desktop/blob/master/LICENSE.txt
+[contributors-url]: https://github.com/fab411/obsidian-desktop-entry/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fab411/obsidian-desktop-entry.svg?style=for-the-badge
+[forks-url]: https://github.com/fab411/obsidian-desktop-entry/network/members
+[stars-shield]: https://img.shields.io/github/stars/fab411/obsidian-desktop-entry.svg?style=for-the-badge
+[stars-url]: https://github.com/fab411/obsidian-desktop-entry/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fab411/obsidian-desktop-entry.svg?style=for-the-badge
+[issues-url]: https://github.com/fab411/obsidian-desktop-entry/issues
+[license-shield]: https://img.shields.io/github/license/fab411/obsidian-desktop-entry.svg?style=for-the-badge
+[license-url]: https://github.com/fab411/obsidian-desktop-entry/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 
