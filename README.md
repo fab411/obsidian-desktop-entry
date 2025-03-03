@@ -101,6 +101,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
 
+### Step 0: Installation Options: Clone the Repository or Set Up Manually?
+
+You have two options to install and configure Obsidian on your system. Choose the method that best suits your needs:
 
 ### Step 1: Clone the Repository
 &nbsp; First, download the repository to your local machine:
