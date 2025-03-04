@@ -137,22 +137,22 @@ mv Obsidian-1.8.7.AppImage ~/Downloads/obsidian-desktop-entry/obsidian
 mv ~/Downloads/obsidian-desktop-entry/obsidian ~/.local/share/
 ```
 
-Rename the username with you home directory because $home and ~/... not working in a .desktop file
-
+### Step 4 Rename the `HOME_DIR` 
+Since `.desktop` files do not support `$HOME` or `~`, replace the placeholder `HOME_DIR` in `Obsidian.desktop` with your actual home directory:
 ```bash
 cd ~/.local/share/obsidian
 sed -i "s|HOME_DIR|$HOME|g" ~/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### Step 4: Install the .desktop File
+### Step 5: Install the .desktop File
 &nbsp; To install the file in ~/.local/share/applications/, run:
 ```bash 
 sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### Step 5: Update the Application Database
+### Step 6: Update the Application Database
 &nbsp; Update the application database so the new shortcut is recognized:
 ```bash 
 sudo update-desktop-database ~/.local/share/applications/
