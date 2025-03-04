@@ -137,6 +137,14 @@ mv Obsidian-1.8.7.AppImage ~/Downloads/obsidian-desktop-entry/obsidian
 mv ~/Downloads/obsidian-desktop-entry/obsidian ~/.local/share/
 ```
 
+Rename the username with you home directory because $home and ~/... not working in a .desktop file
+
+```bash
+cd ~/.local/share/obsidian
+sed -i "s|HOME_DIR|$HOME|g" ~/.local/share/obsidian/Obsidian.desktop
+```
+
+
 ### Step 4: Install the .desktop File
 &nbsp; To install the file in ~/.local/share/applications/, run:
 ```bash 
@@ -246,8 +254,7 @@ Use this space to list resources you find helpful and would like to give credit 
 - [x] Add AppImage Stuff
 - [x] Add Acknowledgments
 - [x] Repository Structure
-- [ ] Modify file paths to be more generic and avoid hardcoded /home/fab/ paths
-    - [ ] .desktop files and compatibility
+- [x] Modify file paths to be more generic and avoid hardcoded /home/usr/ paths
 - [ ] Update Table of Contents
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
