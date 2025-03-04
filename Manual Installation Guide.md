@@ -43,7 +43,7 @@ Type=Application
 X-Desktop-File-Install-Version=0.26
 ```
 
-### Step 4 Rename the `HOME_DIR` 
+### Step 4: Rename the `HOME_DIR` 
 Since `.desktop` files do not support `$HOME` or `~`, replace the placeholder `HOME_DIR` in `Obsidian.desktop` with your actual home directory:
 ```bash
 cd ~/.local/share/obsidian
