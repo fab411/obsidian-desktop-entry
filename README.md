@@ -40,7 +40,7 @@ folder repository name: obsidian-desktop-entry
     <img src="obsidian/images/obsidian_core.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Creating a .desktop File for Application Shortcuts</h3>
+  <h1 align="center"> Creating a .desktop File for Application Shortcuts</h1>
   <p align="center">
     An awesome README to run Obsidian via the graphical interface and make the work process smoother
     <br />
@@ -82,7 +82,7 @@ folder repository name: obsidian-desktop-entry
 </details>
 
 
-# Obsidian.desktop File for Application Shortcut
+<!--# Obsidian.desktop File for Application Shortcut-->
 
 ## About The Project
 
@@ -138,7 +138,7 @@ mv Obsidian-1.8.7.AppImage ~/.local/share/obsidian/
 ### Step 4: Install the .desktop File
 &nbsp; To install the file in ~/.local/share/applications/, run:
 ```bash 
-sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/obsidian/obsidian-desktop-entry
+sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/obsidian.desktop
 ```
 
 
