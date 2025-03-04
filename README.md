@@ -73,7 +73,7 @@ folder repository name: obsidian-desktop-entry
       </ul>-->
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#links">Troubleshooting</a></li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
