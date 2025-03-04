@@ -61,7 +61,7 @@ chmod +x ~/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### Step 6:: Install the .desktop File
+### Step 6: Install the .desktop File
 &nbsp; To install the file, run:
 ```bash 
 sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/Obsidian.desktop
