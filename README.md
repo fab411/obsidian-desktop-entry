@@ -73,11 +73,12 @@ folder repository name: obsidian-desktop-entry
       </ul>-->
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#links">Useful Links</a></li>
+    <li><a href="#links">Troubleshooting</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
   </ol>
 </details>
 
@@ -107,6 +108,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
+
+## Getting Started
 
 ### Step 0: Installation Options: Clone the Repository or Set Up Manually?
 
