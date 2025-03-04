@@ -29,11 +29,11 @@ Name=Obsidian
 # Tooltip description
 Comment=Open a Vault
 # The path to the folder in which the executable is run
-Path=/home/fab/.local/share/obsidian/
+Path=HOME_DIR/.local/share/obsidian/
 # The executable of the application, possibly with arguments.
-Exec=/home/fab/.local/share/obsidian/Obsidian-1.8.7.AppImage
+Exec=HOME_DIR/.local/share/obsidian/Obsidian-1.8.7.AppImage
 # The name of the icon that will be used to display this entry
-Icon=/home/fab/.local/share/obsidian/images/obsidian_core.svg
+Icon=HOME_DIR/.local/share/obsidian/images/obsidian_core.svg
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
 # Describes the categories in which this entry should be shown
@@ -43,8 +43,14 @@ Type=Application
 X-Desktop-File-Install-Version=0.26
 ```
 
+### Step 4 Rename the `HOME_DIR` 
+Since `.desktop` files do not support `$HOME` or `~`, replace the placeholder `HOME_DIR` in `Obsidian.desktop` with your actual home directory:
+```bash
+cd ~/.local/share/obsidian
+sed -i "s|HOME_DIR|$HOME|g" ~/.local/share/obsidian/Obsidian.desktop
+```
 
-### Step 3: Validate and Make It Executable
+### Step 5: Validate and Make It Executable
 &nbsp; Run the following command to validate the `.desktop` file:
 ```bash
 sudo desktop-file-validate ~/.local/share/obsidian/Obsidian.desktop
@@ -55,14 +61,14 @@ chmod +x ~/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### Step 4: Install the .desktop File
+### Step 6:: Install the .desktop File
 &nbsp; To install the file, run:
 ```bash 
 sudo desktop-file-install --dir=$HOME/.local/share/applications $HOME/.local/share/obsidian/Obsidian.desktop
 ```
 
 
-### Step 5: Update the Application Database
+### Step 7: Update the Application Database
 &nbsp; Update the application database so the new shortcut is recognized:
 ```bash 
 sudo update-desktop-database ~/.local/share/applications/
