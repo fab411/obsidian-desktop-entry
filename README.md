@@ -255,12 +255,10 @@ Use this space to list resources you find helpful and would like to give credit 
 - [x] Add Acknowledgments
 - [x] Repository Structure
 - [x] Modify file paths to be more generic and avoid hardcoded /home/usr/ paths
-- [ ] Update Table of Contents
-- [ ] Add "components" document to easily copy & paste sections of the readme
+- [x] Update Table of Contents
 - [ ] Multi-language Support
     - [ ] German
     - [ ] Arabic
-- [ ] Docker
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
