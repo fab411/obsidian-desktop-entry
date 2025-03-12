@@ -73,11 +73,26 @@ folder repository name: obsidian-desktop-entry
       </ul>-->
     </li>
     <li><a href="#usage">Usage</a></li>
+<<<<<<< HEAD
     <li><a href="#links">Useful Links</a></li>
+=======
+<<<<<<< HEAD
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
+=======
+    <li><a href="#links">Useful Links</a></li>
+>>>>>>> adbeac4 (Initial commit)
+>>>>>>> 29c0ce1 (Updated some documents)
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <li><a href="#roadmap">Roadmap</a></li>
+=======
+>>>>>>> adbeac4 (Initial commit)
+>>>>>>> 29c0ce1 (Updated some documents)
   </ol>
 </details>
 
@@ -108,6 +123,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+## Getting Started
+
+=======
+>>>>>>> adbeac4 (Initial commit)
+>>>>>>> 29c0ce1 (Updated some documents)
 ### Step 0: Installation Options: Clone the Repository or Set Up Manually?
 
 You have two options to install and configure Obsidian on your system. Choose the method that best suits your needs:
@@ -250,17 +273,19 @@ Use this space to list resources you find helpful and would like to give credit 
 <!--ROADMAP--> 
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add AppImage Stuff
-- [x] Add Acknowledgments
+- [x] Add Changelog, Acknowledgments
 - [x] Repository Structure
-- [x] Modify file paths to be more generic and avoid hardcoded /home/usr/ paths
+- [x] Modify file paths to be more generic and avoid hardcoded `/home/usr/` paths
 - [x] Update Table of Contents
+- [ ] Improve system integration
 - [ ] Multi-language Support
     - [ ] German
     - [ ] Arabic
 
+<<<<<<< HEAD
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+=======
+>>>>>>> 29c0ce1 (Updated some documents)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

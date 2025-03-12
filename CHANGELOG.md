@@ -1,7 +1,13 @@
 # Changelog
 
-## v1.0.0
+## v1.0.1
+### Added or Changed
+- Added `StartupWMClass` to ensure proper window grouping and prevent duplicate icons in the taskbar. 
 
+- Added `MimeType=x-scheme-handler/obsidian`; to enable opening `obsidian://` links from external applications.
+
+
+## v1.0.0
 ### Added or Changed
 - Added this changelog :)
 
